@@ -1,0 +1,13 @@
+/* Define the initial state of the h4 element */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px); /* Start offscreen */
+    transition: opacity 4000ms ease, transform 4000ms ease;
+}
+
+/* Define the animation when it becomes visible */
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
